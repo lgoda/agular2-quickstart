@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T11:13:35.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="F4RSE-9froe4T2cOsz26" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T11:27:11.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="AKJZCVCKWgVuqjIrxDfJ" version="14.1.9" type="github">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="3175.5" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -73,18 +73,8 @@
         <mxCell id="IyNrNECSmmDLrCuH3FXE-19" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Developer gets&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;the PR approved&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;and Merged into&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;oegenDev3 branch&lt;/span&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Branch.svg;" vertex="1" parent="1">
           <mxGeometry x="200" y="470" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="IyNrNECSmmDLrCuH3FXE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IyNrNECSmmDLrCuH3FXE-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1198" y="420" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1330" y="420" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IyNrNECSmmDLrCuH3FXE-37" value="PULL&amp;nbsp; REQUEST TO MERGE&lt;br&gt;CODEBASE INTO MASTER BRANCH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IyNrNECSmmDLrCuH3FXE-36">
-          <mxGeometry x="0.4275" y="-1" relative="1" as="geometry">
-            <mxPoint x="-2" y="21" as="offset" />
-          </mxGeometry>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.493;entryY=0.715;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IyNrNECSmmDLrCuH3FXE-33" target="IyNrNECSmmDLrCuH3FXE-68">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IyNrNECSmmDLrCuH3FXE-33" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/devops/build_test.svg;" vertex="1" parent="1">
           <mxGeometry x="1290" y="505" width="80" height="80" as="geometry" />
@@ -159,6 +149,62 @@
         </mxCell>
         <mxCell id="IyNrNECSmmDLrCuH3FXE-65" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="514.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-68" value="Tester Approve on Azure devops" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="453" width="70" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-73" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IyNrNECSmmDLrCuH3FXE-68" target="IyNrNECSmmDLrCuH3FXE-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="440" as="sourcePoint" />
+            <mxPoint x="1540" y="465" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1490" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IyNrNECSmmDLrCuH3FXE-74" target="IyNrNECSmmDLrCuH3FXE-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1302" y="390" />
+              <mxPoint x="1302" y="381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-74" value="" style="triangle;whiteSpace=wrap;html=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="360" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-76" value="OK, automatic test passed, manual approval given &lt;br&gt;then a PR to collinson will be opened automatically &lt;br&gt;by azure pipeline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="876.5" y="340" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-80" value="OK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="370" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-82" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IyNrNECSmmDLrCuH3FXE-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="860" as="sourcePoint" />
+            <mxPoint x="-240" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="930" />
+              <mxPoint x="-240" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-83" value="DEVELOPERS TO RESOLVE THE ISSUE WITH THE BUILD&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="890" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-85" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IyNrNECSmmDLrCuH3FXE-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="707" as="sourcePoint" />
+            <mxPoint x="1320" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1410" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IyNrNECSmmDLrCuH3FXE-86" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IyNrNECSmmDLrCuH3FXE-85">
+          <mxGeometry x="-0.8133" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
